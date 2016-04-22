@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+
+  <title>Jeffrey Wang</title>
+
+  <!-- include add-ons and stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/draggable/jquery-ui.css">
+    <!-- ===========================
+  ICONS: 
+  =========================== -->
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel='shortcut icon' href='images/img/favicon.ico' type='image/x-icon'/ > 
+  
+  <!-- ===========================
+  GOOGLE FONTS
+  =========================== -->    
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+
+  <link rel="stylesheet" href="css/draggable/jquery-ui.css">
+  
+  <style>
+    #draggable { width: 250px; height: 109px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; background-image: url(images/img/ibm.gif); border: none; }
+    #droppable { width: 280px; height: 150px; padding: 0.5em; float: left; margin: 10px; background-image: url(images/img/empty.png); background-repeat: no-repeat; }
+  </style>
+
+
+</head>
+<body data-spy="scroll">
+<!-- Preloader -->
+        <div id="preloader">           
+            <div id="status">
+                <img src="images/img/me.gif" alt="">
+            </div>
+        </div>
+        
+       <header>               
+        <!-- ===========================
+        HERO AREA
+        =========================== -->
+        <div id="hero">           
+            <div class="container herocontent">               
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Jeffrey P. Wang</h2>                
+                <h4 class="wow fadeInDown" data-wow-duration="3s"> "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." - <i>Maya Angelou</i></h4>            
+            </div>
+            
+            <!-- Featured image on the Hero area -->
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="images/img/hero-img.png" alt="Featured Work">            
+        </div><!--HERO AREA END-->        
+        
+        <!-- ===========================
+         NAVBAR START
+         =========================== -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+               <div class="container">
+                   
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        
+                           <a class="navbar-brand" href="#hero">
+ 
+                            <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                            <span class="brandname">My Cover Letter for <img src="images/img/ibm-logo.png" alt="IBM logo"></span>
+                        </a>
+                    </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Qualifications</a></li>
+                        <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
+
+                        
+                        <!--don't forget to replace my email address below with yours-->
+                        <li><a href="mailto:jeffpwang91@gmail.com"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                        <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                    </ul>
+                
+                </div><!--.nav-collapse -->
+            </div>
+        </nav><!--navbar end-->        
+     </header><!--header end-->     
+
+    <!-- ===========================
+    FEATURED CLIENTS SECTION START
+    =========================== -->
+     <div id="clients">
+         <div class="container">
+             <div class="col-md-3">
+                 <h4>Proudly worked with and learned from:</h4>
+             </div>
+             <div class="col-md-9">
+                 <ul><!--CLIENTS LOGO-->
+                     <li><img src="images/img/umd.png" alt="UMD"></li>
+                     <li><img src="images/img/h2o.png" alt="H2O"></li>
+                     <li><img src="images/img/bugs.jpeg" alt="BUGS"></li>
+                     <li><img src="images/img/flatiron.png" alt="Flatiron"></li>
+                     <li><img id="easter-egg" src="images/img/empty.png" alt="empty slot"></li>
+                     <div id="hidden">
+                     <li><div id="droppable" class="ui-widget-header"><p style="color: white;"></p></div></li>
+                     <li><img src="images/img/arrow.png" alt="arrow" align="left" style="padding-top: 30px;"></li>
+                     <li><img id="draggable" class="ui-widget-content" src="images/img/ibm.png" alt="ibm logo"></li>
+                     </div>                     
+                 </ul><!--CLIENTS LOGO END-->
+             </div>
+         </div>
+         <hr><!-- SECTION SEPARETOR LINE -->
+     </div><!--FEATURED CLIENTS SECTION END-->
+     
+    
+    <!-- ===========================
+    ABOUT SECTION START
+    =========================== -->
+     <div id="about" class="container">
+        
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6">
+            <div class="row">
+             <h2 class="wow fadeInDown" data-wow-duration="2s">I'm Jeffrey Wang from Brooklyn.</h2>
+
+             <h4 class="wow fadeInUp" data-wow-duration="3s">Programming always seemed elusive and mysterious to me. As a data manager I was envious of the programmers on the job, with their ability to fix things on the fly and their seemingly boundless knowledge on how our systems worked.</h4>
+             
+             <p class="wow fadeInDown" data-wow-duration="3s">At <a href="http://www.h2oclinical.com/" target="_blank">H2O Clinical</a>, I developed electronic case report forms (eCRFs) while monitoring UX to make sure that our clinicians knew how to navigate and utilize our data capture system. I was given the responsibility to train users on how to use our system. Through training other people, this incited a passion in me that I knew I wanted to explore: becoming a teacher. </p>
+             <p class="wow fadeInDown" data-wow-duration="3s">I was accepted into the <a href="https://www.nycteachingfellows.org/" target="_blank">NYC Teaching Fellows</a> program in 2014 where I taught math in a middle school in East New York, and then found myself teaching computer science in a charter school in Park Slope, where I taught students how to code and my curiosity for programming was revitalized. </p>
+             
+             <a class="dribbble-follow-button wow bounce" href="https://github.com/jeffpwang91">My Github</a>
+             </div> <!-- ABOUT INFO END -->
+             
+            
+            <div class="myapps row">
+                <h5>Tools and apps I use everyday:</h5>
+                
+                <ul><!-- FAVORITE APP ICONS START -->
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="images/img/ruby.png" alt="Ruby"></li>
+
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="images/img/rails.png" alt="Rails"></li>
+
+                    <li><img class="wow animated bounceInUp" data-wow-duration="3s" src="images/img/sql.png" alt="SQL"></li>
+
+                    <li><img class="wow bounceInUp" data-wow-duration="4s" src="images/img/js.png" alt="Javascript"></li>
+
+                    <li><img class="wow animated bounceInUp" data-wow-duration="5s" src="images/img/html.png" alt="HTML"></li>
+
+                    <li><img class="wow bounceInUp" data-wow-duration="6s" src="images/img/css.png" alt="CSS"></li>
+
+                    <li><img class="wow bounceInUp" data-wow-duration="7s" src="images/img/bootstrap.png" alt="CSS"></li>
+
+                    <li><img class="wow bounceInUp" data-wow-duration="8s" src="images/img/github.png" alt="CSS"></li>
+                </ul><!-- FAVORITE APP ICONS END -->
+            </div>
+         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        <!--Left part end-->
+         
+         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+          <figure>
+             <img src="images/img/user.png" alt="programmers">
+             <figcaption align="middle"><i>What I thought programmers did.</i></figcaption>
+           </figure>
+         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+     </div><!-- ABOUT SECTION END -->
+        
+    <hr><!-- SECTION SEPARETOR LINE -->
+        
+    <!-- ===========================
+    SERVICE SECTION START
+    =========================== -->
+    <div id="services" class="container">
+       
+        <!-- SERVICE SECTION HEADING START -->
+        <div class="sectionhead  row wow fadeInUp">
+            <span class="bigicon icon-cup "></span>
+            <h3>This is what I can do for you</h3>
+            <hr class="separetor">
+         </div><!--SERVICE SECTION HEADING END-->
+         
+        <!-- SERVICE ITEMS START -->
+        <div class="row">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s3.png" alt="">
+                   <h4>Analyzing Data to Solve Problems</h4>
+                   <p>As a math teacher, I collected and analyzed student data consistently. Many of my students were below grade level, so analyzing student assessment data and planning individualized tracks for my students was crucial for their learning.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s2.png" alt="">
+                   <h4>Data Visualization & Modeling</h4>
+                   <p> Working as a data manager for a clinical research company has taught me the importance of clean, approachable data. I was responsible for developing weekly reports for the research team and analyzing data from multiple clinical trials.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s4.png" alt="">
+                   <h4>Business Acumen & Strategy</h4>
+                   <p>After several years of teaching, I have a knack for presenting information in a straightforward, compelling format. I know how to convey the information that I want to impart and get the feedback I need to facilitate future actions.</p>
+                </div> <!-- ITEM END -->
+
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s1.png" alt="">
+                   <h4>Front-end Web Development</h4>
+                   <p>I am proficient in HTML, CSS, and Javascript and can create visually appealing, easy-to-navigate interfaces for users. In addition, I am familiar with frameworks like Bootstrap and jQuery, and using Ajax to create dynamic user experiences.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s5.png" alt="">
+                   <h4>Back-end Web Development</h4>
+                   <p>I am fluent in Ruby and Javascript to build the server side and can utilize SQL and APIs to collect and extract data— all while utilizing RESTful conventions and MVC. </p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="images/img/s6.png" alt="">
+                   <h4>Project Management</h4>
+                   <p>Leading a group of students every day is tough. It requires patience, quiet power, and organization. By embodying these skills, I can effectively lead a diverse group of people towards an objective as well as collaborate productively.</p>
+                </div> <!-- ITEM END -->
+        </div><!-- SERVICE ITEMS END-->
+    </div><!-- SERVICE SECTION END -->
+    
+    <!-- ===========================
+    PORTFOLIO SECTION START
+    =========================== -->
+    <div id="portfolio">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+          <span class="bigicon icon-rocket"></span>
+           <h3>A few recent works</h3>
+           <hr class="separetor">            
+        </div><!-- PORTFOLIO SECTION HEAD END -->   
+        
+        <!-- PORTFOLIO ITEMS START -->
+        <div class="portfolioitems container">
+          <ul>
+            <div id="shotsByPlayerId" class='impartner'>
+            <li><a class="btn btn-default wow fadeInUp" href="http://impartner.herokuapp.com/">Impartner</a></li>
+            </div>
+            <div id="shotsByPlayerId" class='ladybug'> 
+            <li><a class="btn btn-default wow fadeInUp" href="http://lady-bug.herokuapp.com/">Ladybug</a></li> 
+            </div>
+            <div id="shotsByPlayerId" class='journey'>
+            <li><a class="btn btn-default wow fadeInUp" href="http://journ-ie.herokuapp.com/">Journey</a></li> 
+            </div>
+          </ul><!--REFER TO THE js/drifolio.js-->
+        </div><!-- PORTFOLIO ITEMS END -->
+        
+    </div><!-- PORTFOLIO SECTION END -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+    <!--Other necessary scripts-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
+    <script src="js/wow.min.js"></script>
+      <script src="css/draggable/external/jquery/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/drag.js"></script>
+    <script>new WOW().init();</script>    
+  </body>
+</html>
